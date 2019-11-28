@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "85e39b08-cd57-47b8-a258-fa903ff18e0e",
+		"name": "WebFlux",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:9090/playlist/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\t\"nome\": \"WebFlux\" \n}"
+				},
+				"url": {
+					"raw": "localhost:9090/playlist/",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"playlist",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9090/playlist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:9090/playlist",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"playlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9090/playlist/<ID>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:9090/playlist/<ID>",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"playlist",
+						"<ID>"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
