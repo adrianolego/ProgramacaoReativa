@@ -1,0 +1,5 @@
+
+nsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(å ¹ôüÿÿÿÿ8Àú¥äí-
+Vsquid:S1854"8Remove this useless assignment to local variable "line".(ÔÉ¢‹8Àú¥äí-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÏØ¦ä8†•›ãí-
+Gsquid:S1481")Remove this unused "line" local variable.(ÔÉ¢‹8Àú¥äí-
